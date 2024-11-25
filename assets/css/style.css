@@ -1,0 +1,337 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d1cbcb;
+}
+.header{
+    /* etr fole header row te cole asche */
+    display: flex;
+    /* etar fole sob item ek hoye center e cole ase */
+    align-items: center;
+    /* etar kaj hoccche left & right theke soman jaiga niye content guloke majhkhane rakhbe */
+    justify-content: center;
+    /* etar fole baground color halka transparent hoy */
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 100%;
+    /* position: fixed; */
+
+}
+.logo{
+    /* padding er kaj hocche border er vidor theke carpasher jaiga niye nije choto hoya
+    ar margin page theke jaiga niye choto hoya
+    ekhane padding e duita px neya hoyeche karon prothom ta x okkho and ditiyo ta y okkho borabor kaj korbe */
+    padding: 3px 40px;
+}
+.logo img{
+    height: 75px;
+    width: 110px;
+}
+.navbar{
+    padding: 3px 40px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    /* eta korar fole list-item gulo te ze dot ase segulo cole zay */
+    list-style: none;
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    /* etar fole a tag er underline cole geche */
+    text-decoration: none;
+    /* ekhane a te padding deya hoyeche hovar sundor korar jonno li te paddig dileo hoto */
+    padding: 3px 15px;
+    color: rgb(77, 76, 76);
+    border-radius: 15px;
+    transition-duration: 0.8s;
+}
+.navbar ul li a:hover{
+    color: bisque;
+    background-color: brown;
+    border-radius: 15px;
+}
+.buttons{
+    padding: 3px 40px;
+    display: flex;
+}
+.search{
+    padding: 3px 30px;
+}
+.search input{
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    outline: none;
+    background: transparent;
+    border: 1px solid brown;
+    border-right: none;
+    border-top-left-radius: 5px;
+    float: left;
+    /* border: none; */
+    
+}
+.search button{
+    cursor: pointer;
+    height: 22px;
+    width: 30px;
+    border: 1px solid brown;
+    border-bottom-right-radius: 5px;
+    background: transparent;
+    color: rgb(77, 76, 76);
+    outline: none;
+    transition: 0.5s;
+    /* border: none; */
+    
+}
+.search button:hover{
+    color: bisque;
+    background-color: brown;
+}
+.signin a{
+    padding: 3px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.signin a:hover{
+    color: bisque;
+    background-color: brown;
+    border-radius: 15px;
+}
+.content{
+    display: flex;
+    padding: 10px;
+}
+.row1{
+    border: 1px solid brown;
+    margin: 10px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.row2{
+    border: 1px solid brown;
+    margin: 10px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.row3{
+    border: 1px solid brown;
+    margin: 10px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.form-section{
+    padding: 10px;
+    /* etar fole backgroud zototuku dorkar tototuku ney full row ney na  */
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    border: 2px solid brown;
+    border-radius: 10px;
+    height: 280px;
+    width: 300px;
+}
+.form h1{
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.name{
+    padding-top: 5px;
+    padding-left: 5px;
+    display:grid;
+}
+.name label{
+    padding-left: 3px;
+}
+.name input{
+    padding-left: 5px;
+    height: 20px;
+    width: 285px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.email{
+    padding-top: 5px;
+    padding-left: 5px;
+    display:grid;
+}
+.email label{
+    padding-left: 3px;
+}
+.email input{
+    padding-left: 5px;
+    height: 20px;
+    width: 285px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.password{
+    padding-top: 5px;
+    padding-left: 5px;
+    display:grid;
+}
+.password label{
+    padding-left: 3px;
+}
+.password input{
+    padding-left: 5px;
+    height: 20px;
+    width: 285px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.c_password{
+    padding-top: 5px;
+    padding-left: 5px;
+    display:grid;
+}
+.c_password label{
+    padding-left: 3px;
+}
+.c_password input{
+    padding-left: 5px;
+    height: 20px;
+    width: 285px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.btn{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.btn button{
+    height: 25px;
+    width: 70px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.btn button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 10px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    padding: 20px 100px;
+}
+.menu ul li{
+    list-style: none;
+    padding-top: 8px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    transition: color 0.2s ease, font-size 0.1s ease;
+
+}
+.menu ul li a:hover{
+    color: brown;
+    font-size: 17px;
+
+}
+.subscription{
+    padding: 20px 100px;
+}
+.subscription h3{
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.subscription input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    display: grid;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.subscription button{
+    border: none;
+    margin-top: 5px;
+    margin-left: 70px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: rgb(77, 76, 76);
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+.subscription button:hover{
+    color: bisque;
+    background-color: brown;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.social-media{
+    padding: 20px 100px;
+}
+.social-media ul li{
+    list-style: none;
+    padding-top: 8px;
+}
+.social-media ul li a{
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    transition: color 0.2s ease, font-size 0.1s ease;
+
+}
+.social-media ul li a:hover{
+    color: brown;
+    font-size: 17px;
+
+}
+.copyright{
+    border-top: 2px solid rgb(158, 157, 157);
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: large;
+}
+
+
+
