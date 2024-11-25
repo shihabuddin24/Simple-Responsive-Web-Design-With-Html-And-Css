@@ -258,7 +258,7 @@ body{
 }
 .menu ul li{
     list-style: none;
-    padding-top: 8px;
+    padding-top: 4px;
 }
 .menu ul li a{
     text-decoration: none;
